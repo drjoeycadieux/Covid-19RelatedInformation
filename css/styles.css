@@ -141,3 +141,15 @@ body {
     color: white;
     font-family: sans-serif;
 }
+
+.banner {
+    background-color: brown;
+    padding: 10px;
+}
+
+.banner p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+}
