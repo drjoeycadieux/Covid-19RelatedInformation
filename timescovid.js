@@ -1,4 +1,4 @@
-d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function (err, rows) {
+d3.csv(" https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv", function (err, rows) {
 
     function unpack(rows, key) {
         return rows.map(function (row) { return row[key]; });
