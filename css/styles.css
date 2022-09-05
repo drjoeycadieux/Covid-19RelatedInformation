@@ -49,12 +49,18 @@ body {
 .alerts {
     padding: 10px;
     background-color: rgb(158, 158, 21);
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
 }
 
 .alerts p {
     color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    width: 700px;
+    margin: auto;
+    font-weight: 700;
 }
 
 .alerts a {
@@ -64,4 +70,74 @@ body {
 
 .alerts a:hover {
     color: white;
+}
+
+.container-panel {
+    padding: 70px;
+    background-color: rgb(59, 205, 78);
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container-panel h3 {
+    font-family: sans-serif;
+}
+
+.container-panel .inner {
+    padding: 1px;
+    background-color: black;
+    width: 700px;
+    margin: auto;
+}
+
+.container-home {
+    padding: 70px;
+    background-color: rgb(59, 149, 205);
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+    float: inline-end;
+}
+
+.container-home h3 {
+    font-family: sans-serif;
+}
+
+.home-content {
+    padding: 75px;
+    background-color: rgb(213, 161, 38);
+}
+
+.about-content {
+    padding: 70px;
+    background-color: blueviolet;
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.about-content h3 {
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+.container-info {
+    padding: 70px;
+    background-color: rgb(43, 226, 186);
+    width: 900px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.footermodule {
+    padding: 25px;
+    background-color: rgb(13, 36, 81);
+}
+
+.footermodule p {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
 }
