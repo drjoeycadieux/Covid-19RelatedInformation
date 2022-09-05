@@ -32,7 +32,7 @@
         <div class="alerts">
             <p>
                 <i style="font-size: 20px;" class="bi bi-exclamation-triangle-fill"></i>
-                For the most up to date information regarding COVID-19 in Canada, please consult <a href="">Canada
+                For the most up to date information regarding COVID-19 in Canada, please consult <a href="#">Canada
                     Health</a>. This
                 site should not be used for life saving information - instead, rather, a source for numbers and
                 statistics.
@@ -105,14 +105,41 @@
         </center>
     </div>
     <br>
+    <div class="covid-data">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div id="myPlot" style="width:100%;max-width:700px"></div>
+                </div>
+                <div class="col">
+                    <div id="myPlot1" style="width:100%;max-width:700px"></div>
+                </div>
+                <div class="col">
+                    <div id="myPlot2" style="width:100%;max-width:700px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="covid-times">
+        <div id='myDiv'>
+            <!-- Plotly chart will be drawn inside this DIV -->
+        </div>
+    </div>
+    <br>
     <div class="footermodule">
         <p>&copy; Copyright
             <script type="text/javascript">document.write(new Date().getFullYear())</script> TechTack Technologies LLC.
             Covid-19 Related Information
         </p>
     </div>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
     <script src="script.js"></script>
-    <script src="/js/lib/vendor.js"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="timescovid.js"></script>
 </body>
 
 </html>
