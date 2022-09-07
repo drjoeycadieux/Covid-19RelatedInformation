@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(13, 36, 81);
+    background-color: #2c3e50;
     padding: 25px;
     top: 0;
     width: 100%;
@@ -28,7 +28,7 @@ body {
     font-family: sans-serif;
     text-decoration: none;
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .navbar ul li a:hover {
@@ -134,7 +134,7 @@ body {
 
 .footermodule {
     padding: 25px;
-    background-color: rgb(13, 36, 81);
+    background-color: #2c3e50;
 }
 
 .footermodule p {
